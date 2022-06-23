@@ -6,6 +6,7 @@ target 'TexBrother_MVVM_Study' do
   use_frameworks!
 
   # Pods for TexBrother_MVVM_Study
-    pod 'RxSwift', '6.2.0'
-    pod 'RxCocoa', '6.2.0'
+   pod 'RiveRuntime'
+   pod 'RxSwift', '6.2.0'
+   pod 'RxCocoa', '6.2.0'
 end

@@ -41,10 +41,14 @@
 		CC4D779C27A911EC00B9B685 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4D779B27A911EB00B9B685 /* SecondViewController.swift */; };
 		CC4D779E27A918DE00B9B685 /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4D779D27A918DE00B9B685 /* SecondViewModel.swift */; };
 		CC4D77A027A9192400B9B685 /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4D779F27A9192400B9B685 /* RegisterModel.swift */; };
+		CCD4BBDD27DE243100405B6E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CCD4BBDC27DE243100405B6E /* Kingfisher */; };
+		CCD4BBDF27DE244A00405B6E /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD4BBDE27DE244A00405B6E /* FourthViewController.swift */; };
+		CCEB8CF12864411100B4D4B4 /* switch.riv in Resources */ = {isa = PBXBuildFile; fileRef = CCEB8CF02864411100B4D4B4 /* switch.riv */; };
 		CCF0BC4627A9B42E00D265FB /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0BC4527A9B42E00D265FB /* ThirdViewController.swift */; };
 		CCF0BC4827A9B5B900D265FB /* EmailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0BC4727A9B5B900D265FB /* EmailTableViewCell.swift */; };
 		CCF0BC4A27A9B8E500D265FB /* EmailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0BC4927A9B8E500D265FB /* EmailModel.swift */; };
 		CCF0BC4C27A9B96600D265FB /* ThirdViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0BC4B27A9B96600D265FB /* ThirdViewModel.swift */; };
+		CCF9579128643CFA009F08F7 /* RiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9579028643CFA009F08F7 /* RiveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,10 +88,13 @@
 		CC4D779B27A911EB00B9B685 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CC4D779D27A918DE00B9B685 /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
 		CC4D779F27A9192400B9B685 /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		CCD4BBDE27DE244A00405B6E /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		CCEB8CF02864411100B4D4B4 /* switch.riv */ = {isa = PBXFileReference; lastKnownFileType = file; name = switch.riv; path = ../../../../../Downloads/switch.riv; sourceTree = "<group>"; };
 		CCF0BC4527A9B42E00D265FB /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		CCF0BC4727A9B5B900D265FB /* EmailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTableViewCell.swift; sourceTree = "<group>"; };
 		CCF0BC4927A9B8E500D265FB /* EmailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailModel.swift; sourceTree = "<group>"; };
 		CCF0BC4B27A9B96600D265FB /* ThirdViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewModel.swift; sourceTree = "<group>"; };
+		CCF9579028643CFA009F08F7 /* RiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD4BBDD27DE243100405B6E /* Kingfisher in Frameworks */,
 				CC15E98C2775C4C9005A1632 /* SnapKit in Frameworks */,
 				CC15E98F2775C4E2005A1632 /* Then in Frameworks */,
 				7CEFE24621B1AF726D3F097C /* Pods_TexBrother_MVVM_Study.framework in Frameworks */,
@@ -168,6 +176,8 @@
 				CC15E9DF2775C6AB005A1632 /* FirstViewController.swift */,
 				CC4D779B27A911EB00B9B685 /* SecondViewController.swift */,
 				CCF0BC4527A9B42E00D265FB /* ThirdViewController.swift */,
+				CCD4BBDE27DE244A00405B6E /* FourthViewController.swift */,
+				CCF9579028643CFA009F08F7 /* RiveViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -185,6 +195,7 @@
 		CC15E9892775C3F9005A1632 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				CCEB8CF02864411100B4D4B4 /* switch.riv */,
 				CC15E9802775C3CA005A1632 /* Info.plist */,
 				CC15E9722775C3C9005A1632 /* AppDelegate.swift */,
 				CC15E9742775C3C9005A1632 /* SceneDelegate.swift */,
@@ -283,6 +294,7 @@
 			packageProductDependencies = (
 				CC15E98B2775C4C9005A1632 /* SnapKit */,
 				CC15E98E2775C4E2005A1632 /* Then */,
+				CCD4BBDC27DE243100405B6E /* Kingfisher */,
 			);
 			productName = TexBrother_MVVM_Study;
 			productReference = CC15E96F2775C3C9005A1632 /* TexBrother_MVVM_Study.app */;
@@ -315,6 +327,7 @@
 			packageReferences = (
 				CC15E98A2775C4C9005A1632 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				CC15E98D2775C4E2005A1632 /* XCRemoteSwiftPackageReference "Then" */,
+				CCD4BBDB27DE243100405B6E /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = CC15E9702775C3C9005A1632 /* Products */;
 			projectDirPath = "";
@@ -333,6 +346,7 @@
 				CC15E97F2775C3CA005A1632 /* LaunchScreen.storyboard in Resources */,
 				CC15E97C2775C3CA005A1632 /* Assets.xcassets in Resources */,
 				CC15E97A2775C3C9005A1632 /* Main.storyboard in Resources */,
+				CCEB8CF12864411100B4D4B4 /* switch.riv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,9 +423,11 @@
 				CC15E9D32775C5A6005A1632 /* Date+.swift in Sources */,
 				CCF0BC4C27A9B96600D265FB /* ThirdViewModel.swift in Sources */,
 				CC15E9CD2775C5A6005A1632 /* UIApplication+.swift in Sources */,
+				CCD4BBDF27DE244A00405B6E /* FourthViewController.swift in Sources */,
 				CC4D779E27A918DE00B9B685 /* SecondViewModel.swift in Sources */,
 				CC15E9CB2775C5A6005A1632 /* CALayer+.swift in Sources */,
 				CC15E9752775C3C9005A1632 /* SceneDelegate.swift in Sources */,
+				CCF9579128643CFA009F08F7 /* RiveViewController.swift in Sources */,
 				CC15E9E22775C6BC005A1632 /* FirstViewModel.swift in Sources */,
 				CC15E9DE2775C633005A1632 /* Identifiable.swift in Sources */,
 				CC15E9D22775C5A6005A1632 /* UITextField+.swift in Sources */,
@@ -656,6 +672,14 @@
 				kind = branch;
 			};
 		};
+		CCD4BBDB27DE243100405B6E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -668,6 +692,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CC15E98D2775C4E2005A1632 /* XCRemoteSwiftPackageReference "Then" */;
 			productName = Then;
+		};
+		CCD4BBDC27DE243100405B6E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCD4BBDB27DE243100405B6E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

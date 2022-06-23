@@ -1,4 +1,5 @@
 PODS:
+  - RiveRuntime (2.0.26)
   - RxCocoa (6.2.0):
     - RxRelay (= 6.2.0)
     - RxSwift (= 6.2.0)
@@ -7,20 +8,23 @@ PODS:
   - RxSwift (6.2.0)
 
 DEPENDENCIES:
+  - RiveRuntime
   - RxCocoa (= 6.2.0)
   - RxSwift (= 6.2.0)
 
 SPEC REPOS:
   trunk:
+    - RiveRuntime
     - RxCocoa
     - RxRelay
     - RxSwift
 
 SPEC CHECKSUMS:
+  RiveRuntime: 29f4efbad365e340b3d3739ec9b34d1deb37689e
   RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
   RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
   RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
 
-PODFILE CHECKSUM: 4ecf53f48b8f679bee42b35bdcb33a629bd83383
+PODFILE CHECKSUM: d6d3292422c7bb8374442b81bf278ee5b71d832d
 
 COCOAPODS: 1.11.2
